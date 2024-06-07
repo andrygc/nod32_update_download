@@ -14,14 +14,14 @@ Este archivo puede ser ejecutado manual o automáticamente (usando crontab)
 
 #### Ejecutar escript manualmente
 1. Descargar archivo desde este repositorio
-```
+```sh
 wget https://github.com/andrygc/nod32_update_download/blob/main/nod32_update_download.sh
 ```
 2. Darle permisos de ejecución al archivo
-```
+```sh
 chmod +x nod32_update_download.sh
 ```
 3. Ejecutar el script en segundo plano
-```
+```sh
 ./nod32_update_download.sh &
 ```
