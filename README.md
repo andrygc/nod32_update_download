@@ -21,3 +21,7 @@ wget https://github.com/andrygc/nod32_update_download/blob/main/nod32_update_dow
 ```
 chmod +x nod32_update_download.sh
 ```
+3. Ejecutar el script en segundo plano
+```
+./nod32_update_download.sh &
+```
