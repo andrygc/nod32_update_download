@@ -12,7 +12,7 @@ Este script se conecta a la URL donde están publicados los archivos de la base 
 
 Este archivo puede ser ejecutado manual o automáticamente (usando crontab)
 
-#### Ejecutar escript manualmente
+#### Ejecutar script manualmente:
 1. Descargar archivo desde este repositorio
 ```sh
 wget https://github.com/andrygc/nod32_update_download/blob/main/nod32_update_download.sh
@@ -24,4 +24,13 @@ chmod +x nod32_update_download.sh
 3. Ejecutar el script en segundo plano
 ```sh
 ./nod32_update_download.sh &
+```
+#### Ejecutar script usando crontab:
+1. Crear una nueva tarea crontab
+```sh
+crontab -e
+```
+2. Agregar una linea crontab con la configuración de la tarea. *(la configuración de este cron significa que este script se ejecutará todos los días a las 12 de la noche)*
+```sh
+0 0 * * * sh ./nod32_update_download.sh
 ```
