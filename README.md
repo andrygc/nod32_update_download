@@ -10,7 +10,7 @@ Este script se conecta a la URL donde están publicados los archivos de la base 
 
 ### COMO EJECUTAR EL SCRIPT
 
-Este archivo puede ser ejecutado manual o automáticamente (usando crontab)
+Este archivo puede ser ejecutado manual o automáticamente *(usando crontab)*
 
 #### Ejecutar script manualmente:
 1. Descargar archivo desde este repositorio
