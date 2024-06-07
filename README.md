@@ -36,5 +36,5 @@ crontab -e
 ```
 
 
-
+> [!NOTE]
 > *Cualquier duda sobre la configuración, ejecución, alguna sugerencia, alguna mejora que se le pueda hacer al sencillo código del script estaría encantado de que me lo hicieran saber, en el script están los datos para ponerse en contacto conmigo, saludos y espero que este pequeño script les ayude un poco en las tareas de administración* :wink:
