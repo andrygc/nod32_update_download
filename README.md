@@ -8,23 +8,16 @@ La Universidad Central de las Villas "Marta Abreu" en su sitio principal cuenta 
 
 Este script se conecta a la URL donde están publicados los archivos de la base de firma de virus del NOD32, luego mueve los archivos descargados hacia una carpeta específica, seguidamente elimina el directorio que se crea con los archivos de la URL, y po último muestra un mensaje de finalización del proceso.
 
-### Live Version
+### COMO EJECUTAR EL SCRIPT
 
-A live version of the fonts generator is available [here](https://waterrmalann.github.io/fancy-fonts-generator). If you however want to host your own version of the app, follow the steps down below to get started.
+Este archivo puede ser ejecutado manual o automáticamente (usando crontab)
 
-### Hosting locally
-
-1. [Clone the repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
-```sh
-git clone https://github.com/waterrmalann/fancy-fonts-generator.git
+#### Ejecutar escript manualmente
+1. Descargar archivo desde este repositorio
 ```
-2. Install the dependencies.
-```sh
-npm install
+wget https://github.com/andrygc/nod32_update_download/blob/main/nod32_update_download.sh
 ```
-3. This will start a live server. Head to the IP shown in the console.
-```sh
-npm run serve
+2. Darle permisos de ejecución al archivo
 ```
-
-### Adding new fonts
+chmod +x nod32_update_download.sh
+```
