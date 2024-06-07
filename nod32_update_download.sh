@@ -9,16 +9,19 @@
 # @version = v1.1
 
 # create temporal directory
-mkdir /temp/
+mkdir /nod32_update_download/
 
-# go /temp/ directory
-cd /temp/
+# download .nup and .ver files
+wget -r -A .nup,.ver https://antivirus.uclv.edu.cu/nod32/update_all/ /temp/
 
-# download files nup from url
-wget -r -A .nup,.ver https://antivirus.uclv.edu.cu/nod32/update_all/
+# move downloaded files to other path
+mv /nod32_update_download/antivirus.uclv.edu.cu/nod32/update_all/* /update-path/
 
-# move de files to path
-mv /temp/antivirus.uclv.edu.cu/nod32/update_all/* /route-for-files/
+# remove downloaded folder
+rm -rf /nod32_update_download/
 
-# delete temporal directory
-rm -rf /temp/
+echo ""
+echo "#####################################################################################"
+echo "#                                Descarga finalizada!!!                             #"
+echo "#####################################################################################"
+echo ""
